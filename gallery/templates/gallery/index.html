@@ -1,0 +1,17 @@
+{% extends 'gallery/base.html' %}
+{% load static %} 
+{% load bootstrap5 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+{% block content %}
+
+    <div class="container">
+        <h2>Hello Hack</h2>
+        <p class="para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dolor, officiis sunt libero ea quidem nam asperiores modi voluptates, aut culpa repellendus eveniet veritatis beatae corrupti deleniti aliquam nostrum cumque.
+        </p>
+    </div>
+
+    <script src="{% static 'js/main.DOM.js' %}"></script>
+{% endblock content %}
